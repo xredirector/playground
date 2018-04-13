@@ -15,6 +15,9 @@ import sys
 def is_greater (var1, var2):
     return var1 > var2
 
+def is_smaller (var1, var2):
+    return var1 < var2
+
 if __name__ == "__main__":
     print(is_greater(3,1))
 
