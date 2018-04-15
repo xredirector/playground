@@ -16,6 +16,9 @@ class testFunctionality(unittest.TestCase):
     def test_is_smaller(self):
         self.assertEqual(program.is_smaller(1,2), True)
 
+    def test_is_not_smaller(self):
+        self.assertEqual(program.is_smaller(3,2), False)
+
 if __name__ == "__main__":
     unittest.main()
 
