@@ -25,7 +25,6 @@ jobs:
       - run:
           name: run tests
           command: |
-            . venv/bin/activate
             python program_unittest.py
 
       - store_artifacts:
